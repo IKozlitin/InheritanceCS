@@ -93,7 +93,7 @@ namespace Polimorfism
 
         public override string ToString()
         {
-            return base.ToString() + $"\nЯ {_speciality}";
+           return base.ToString() + $"\nЯ {_speciality}" + $"\nМое оружие {_typeOfWeapon}" ;
         }
     }
 
@@ -122,7 +122,7 @@ namespace Polimorfism
 
         public override string ToString()
         {
-            return base.ToString() + $"\nЯ из великого дома {_greatHouse}";
+            return base.ToString() + $"\nЯ {_speciality}" + $"\nМое оружие {_typeOfWeapon}" + $"\nЯ из великого дома {_greatHouse}";
         }
     }
 
@@ -153,7 +153,7 @@ namespace Polimorfism
 
         public override string ToString()
         {
-            return base.ToString() + $"\nЯ состою в гильдии {_guild}";
+            return base.ToString() + $"\nЯ {_speciality}" + $"\nМое оружие {_typeOfWeapon}" + $"\nЯ из великого дома {_greatHouse}" + $"\nЯ состою в гильдии {_guild}";
         }
     }
     class Polimorfism
